@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form spedizione</title>
+</head>
+<body>
+<!-- esercizio tabell -->
+<table >
+    <form method="get" action="https://www.toptal.com/developers/postbin/1679842120880-2060064997058?hello=world" id="prova" autocomplete="on">
+        <tr>
+            <td>
+
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" name="name" placeholder="none" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="lastnome">Cognome</label>
+                <input id="lastnome" type="text" name="lastname" placeholder="none" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="addres">Indirizzo</label>
+                <input id="addres" type="text" name="addres">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="po">Civico</label>
+                <input id="po" name="po" type="number">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="cap">Cap</label>
+                <input id="cap" name="cap" type="number">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="nazione">Nazione</label>
+                <input id="nazione" type="text" name="nazione">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="city">City</label>
+                <input id="city" type="text" name="city">
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="provincia">Provincia</label>
+                <select name="provincia" id="provincia">
+                    <option value="to">TO</option>
+                    <option value="mi">MI</option>
+                    <option value="rm">RM</option>
+                    <option value="altro">Altro</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="phone">Cell</label>
+                <input id="phone" name="phone" type="tel">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="note">Note</label>
+                <textarea name="note" id="note" cols="30" rows="10"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+        <input type="submit" value="invia">
+            </td>
+        </tr>
+
+    </form>
+</table>
+
+<button type="reset" form="prova">Reset</button>
+</body>
+</html>
